@@ -5,6 +5,10 @@
     font-family: monospace;
 }
 
+#youtubeBtn {
+  display: none;
+}
+
 html,
 body {
     position: relative;
