@@ -258,7 +258,7 @@ function createFallingText() {
     
     // Đặt vị trí ngẫu nhiên theo chiều ngang (10% - 70% màn hình)
     const minLeft = window.innerWidth * 0.05; // 10% từ trái
-    const maxLeft = window.innerWidth * 0.3; // 70% từ trái
+    const maxLeft = window.innerWidth * 0.7; // 70% từ trái
     const leftPosition = minLeft + Math.random() * (maxLeft - minLeft);
     
     // Thời gian rơi từ 3-7 giây - bạn có thể thay đổi khoảng này
